@@ -32,7 +32,7 @@ def bubble_sort(list,high_to_low = False):
 
 import math
 
-items = [6,5,math.inf,3,213,23,5667,math.factorial(8),23,-math.inf,343,34234,math.sin(23),324978,54.04,math.inf,34.897,abs(-343),-8342.324,-23.22111211212]
 
 #Test:
+#items = [6,5,math.inf,3,213,23,5667,math.factorial(8),23,-math.inf,343,34234,math.sin(23),324978,54.04,math.inf,34.897,abs(-343),-8342.324,-23.22111211212]
 #print(bubble_sort(items))
