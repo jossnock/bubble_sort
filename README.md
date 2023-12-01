@@ -1,2 +1,2 @@
-# bubble_sort
-Sorts with bubbles.
+# sorts
+Bubble sort, quick sort, and merge sort.
