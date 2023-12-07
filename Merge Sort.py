@@ -38,7 +38,7 @@ def merge_sort(items):
     return list(merge(left, right))
 
 
-#Asserts
+#Asserts:
 assert(merge([1,2],[1,4,7])==[1,1,2,4,7])
 assert(merge_sort([9,5,5,1,2,1,2,2,6])==[1,1,2,2,2,5,5,6,9])
 
@@ -49,3 +49,4 @@ def random_list_generator(range_start, range_end, length):
     for i in range(length):
         list.append(random.randint(range_start, range_end))
     return list
+
