@@ -25,9 +25,6 @@ def merge(list_a, list_b):
 
     return merged_list
 
-assert(merge([1,2],[1,4,7])==[1,1,2,4,7])
-
-
 def merge_sort(items):
     # Base case a 1 item list is sorted so return it..
     if len(items) <= 1:
@@ -41,7 +38,14 @@ def merge_sort(items):
     return list(merge(left, right))
 
 
-import math
-unsorted_list = [9,5,5,1,2,1,2,2,6]
+#Asserts
+assert(merge([1,2],[1,4,7])==[1,1,2,4,7])
 assert(merge_sort([9,5,5,1,2,1,2,2,6])==[1,1,2,2,2,5,5,6,9])
-#IndexError: list index out of range
+
+import random
+def random_list_generator(range_start, range_end, length):
+    #
+    list=[]
+    for i in range(length):
+        list.append(random.randint(range_start, range_end))
+    return list
