@@ -3,13 +3,13 @@ def merge(list_a, list_b):
     merged_list = []
     a = 0
     b = 0
-    while len(merged_list) < (len(list_a) + len(list_a)): 
+    while len(merged_list) < (len(list_a) + len(list_b)): 
     #while total length of other lists < length of merged_list
         if list_a[a] < list_b[b]:
             merged_list.append(list_a[a])
             a += 1
         else:
-            merged_list.append(list_a[b])
+            merged_list.append(list_b[b])
             b += 1
         
         if a == len(list_a):
