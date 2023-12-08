@@ -2,10 +2,10 @@ def insertion_sort(items):
     for i in range(1,len(items)):
         current_item = items[i]
         j = i
-        while j > 0 and items[j - 1] > current_item:
-            items[j] = items[j - 1]
+        while j > 0 and items[j - 1] > current_item: #while correct position not found
+            items[j] = items[j - 1] #shifts item across
             j -= 1
-        items[j] = current_item
+        items[j] = current_item #places item in the correct position
     return items
 
 
