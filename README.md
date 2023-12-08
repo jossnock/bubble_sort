@@ -1,2 +1,2 @@
 # sorts
-Bubble sort, quick sort, and merge sort.
+Bubble sort, insertion sort, merge sort, and quick sort.
