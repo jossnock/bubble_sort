@@ -1,4 +1,5 @@
 def insertion_sort(items):
+    """Sorts a list of numbers from smallest to largest."""
     for i in range(1,len(items)):
         current_item = items[i]
         j = i

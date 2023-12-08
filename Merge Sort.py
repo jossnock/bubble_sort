@@ -26,6 +26,7 @@ def merge(list_a, list_b):
     return merged_list
 
 def merge_sort(items):
+    """Sorts a list of numbers from smallest to largest."""
     # Base case a 1 item list is sorted so return it..
     if len(items) <= 1:
         return items

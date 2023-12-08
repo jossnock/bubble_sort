@@ -1,6 +1,5 @@
 def bubble_sort(list):
-    """Sorts a list of integers from smallest to largest.
-    \n Add 'True' parameter after list to sort from largest to smallest."""
+    """Sorts a list of numbers from smallest to largest."""
     sorted = False
     number_of_passes = 1
     while sorted == False:

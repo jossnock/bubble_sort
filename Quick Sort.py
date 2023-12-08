@@ -1,5 +1,5 @@
 def quick_sort(items):
-    """Sorts a list of values from smallest to largest using recursion."""
+    """Sorts a list of numbers from smallest to largest using recursion."""
     #Base Case:
     if len(items) <= 1:
         return items
