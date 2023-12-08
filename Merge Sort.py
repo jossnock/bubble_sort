@@ -40,13 +40,7 @@ def merge_sort(items):
 
 #Asserts:
 assert(merge([1,2],[1,4,7])==[1,1,2,4,7])
+assert(merge([-2,6,10],[-36,13.6,254])==[-36,-2,6,10,13.6,254])
+
 assert(merge_sort([9,5,5,1,2,1,2,2,6])==[1,1,2,2,2,5,5,6,9])
-
-import random
-def random_list_generator(range_start, range_end, length):
-    #
-    list=[]
-    for i in range(length):
-        list.append(random.randint(range_start, range_end))
-    return list
-
+assert(merge_sort([5,7,12,324.7,245,-123,123.4])==[-123,5,7,12,123.4,245,324.7])

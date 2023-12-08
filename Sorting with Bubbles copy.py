@@ -33,6 +33,6 @@ def bubble_sort(list,high_to_low = False):
 import math
 
 
-#Test:
-#items = [6,5,math.inf,3,213,23,5667,math.factorial(8),23,-math.inf,343,34234,math.sin(23),324978,54.04,math.inf,34.897,abs(-343),-8342.324,-23.22111211212]
-#print(bubble_sort(items))
+#Asserts:
+assert(bubble_sort([9,5,5,1,2,1,2,2,6])==[1,1,2,2,2,5,5,6,9])
+assert(bubble_sort([5,7,12,324.7,245,-123,123.4])==[-123,5,7,12,123.4,245,324.7])
